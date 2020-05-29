@@ -1,0 +1,122 @@
+<html>
+  <head>
+    <title>Yes, in my Backyard</title>
+  </head>
+  <style>
+    @font-face {
+      font-family: "Karbon Stencil";
+      font-weight: 500;
+      src: url("/fonts/KarbonSlabStencilWeb-Bold.eot") format("eot"),
+           url("/fonts/KarbonSlabStencilWeb-Bold.woff") format("woff"),
+           url("/fonts/KarbonSlabStencilWeb-Bold.woff2") format("woff2");
+    }
+    @font-face {
+      font-family: "Karbon Stencil Reg";
+      font-weight: 300;
+      src: url("/fonts/KarbonSlabStencilWeb-Regular.eot") format("eot"),
+           url("/fonts/KarbonSlabStencilWeb-Regular.woff") format("woff"),
+           url("/fonts/KarbonSlabStencilWeb-Regular.woff2") format("woff2");
+    }
+    body {
+    }
+    ::selection {
+      background: #ffffff99;
+    }
+    .video {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: 0;
+    }
+    .container {
+      color: transparent;
+      font-family: "Karbon Stencil", "sans-serif";
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      text-shadow: 1px 1px #00000077;
+      z-index: 2;
+    }
+    h1 {
+      display: block;
+      font-size: 48px;
+      line-height: 54px;
+    }
+    h3 {
+      font-size: 18px;
+      line-height: 36px;
+    }
+    h4 {
+      font-size: 16px;
+      line-height: 24px;
+    }
+    h1, h3, h4 {
+      margin: 0;
+    }
+    #mc_embed_signup form {
+      font-size: 16px;
+      font-family: "Karbon Stencil Reg",sans-serif; 
+      font-weight: 300;
+      margin: 24px auto;
+      outline: none;
+      overflow: hidden;
+      text-shadow: none;
+    }
+    #mc_embed_signup form input {
+      background: #00000077;
+      border-width: 0px;
+      border-radius: 0px;
+      color: #ffffff !important;
+      display: inline-block;
+      font-size: 16px;
+      font-family: inherit; 
+      line-height: 1;
+      padding: 6px;
+      white-space: normal;
+      margin: 0 6px;
+    }
+    #mc_embed_signup form input[type=submit] {
+      cursor: pointer;
+      padding: 7px
+    }
+    #mc_embed_signup form input:focus {
+      outline: 0;
+    }
+    #mc_embed_signup form ::placeholder {
+      color: #ffffff88;
+
+    }
+  </style>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Yes, in my Backyard</h1>
+        <h3>The Antelope Valley's first resource observatory.</h3>
+        <h4>Opening to the public in 2021.</h4>
+      </header>
+      <section class="form">
+        <div id="mc_embed_signup">
+        <form action="https://space.us10.list-manage.com/subscribe/post?u=ca80d813b49ab8718cc65def8&amp;id=0bc4ecb562" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email" required>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+            <input type="text" name="b_ca80d813b49ab8718cc65def8_0bc4ecb562" tabindex="-1" value="">
+            </div>
+            <input type="submit" value="Keep me posted!" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+        </form>
+        </div>
+      </section>
+    </div>
+    <video class="video" muted loop autoplay>
+      <source src="/yimby.mp4" type="video/mp4" />
+    </video>
+    <script type="text/javascript">
+      document.getElementById("mce-EMAIL").focus();
+    </script>
+
+  </body>
+</html>
